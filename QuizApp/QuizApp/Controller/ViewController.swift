@@ -9,17 +9,17 @@
 import UIKit
 
 class ViewController: UIViewController {
-    @IBOutlet weak var currentQuestionLabel: UILabel!
-    @IBOutlet weak var quizScoreLabel: UILabel!
-    @IBOutlet weak var progessBarView: UIView!
-    @IBOutlet weak var headerLabel: UILabel!
-    @IBOutlet weak var questionLabel: UILabel!
+    //@IBOutlet weak var currentQuestion: UILabel!
+    //@IBOutlet weak var quizScoreLabel: UILabel!
+    //@IBOutlet weak var progessBarView: UIView!
+    //@IBOutlet weak var headerLabel: UILabel!
+    //@IBOutlet weak var questionLabel: UILabel!
     
     //buttons
-    @IBOutlet weak var buttonA: UIButton!
-    @IBOutlet weak var buttonB: UIButton!
-    @IBOutlet weak var buttonC: UIButton!
-    @IBOutlet weak var buttonD: UIButton!
+    //@IBOutlet weak var buttonA: UIButton!
+    //@IBOutlet weak var buttonB: UIButton!
+    //@IBOutlet weak var buttonC: UIButton!
+    //@IBOutlet weak var buttonD: UIButton!
     
     
     override func viewDidLoad() {
@@ -42,7 +42,5 @@ class ViewController: UIViewController {
             print("button d")
         }
     }
-    
 
 }
-
