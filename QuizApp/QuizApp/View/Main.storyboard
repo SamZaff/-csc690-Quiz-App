@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina5_5" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -49,15 +49,17 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VzF-72-RKp" userLabel="QuestionView">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="335.66666666666669"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Where does this action belong?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cub-8w-3Um">
-                                                <rect key="frame" x="87" y="8" width="241" height="21"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Where does this action belong?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cub-8w-3Um">
+                                                <rect key="frame" x="86.666666666666686" y="7.9999999999999982" width="241" height="20.333333333333329"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Some generaic question about MVC goes here. The answer can either be A) Model, B) View, C) Controller, or D) None of the above!" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B5F-8q-aSE">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Some generaic question about MVC goes here. The answer can either be A) Model, B) View, C) Controller, or D) None of the above!" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B5F-8q-aSE">
                                                 <rect key="frame" x="15" y="41" width="384" height="59.666666666666657"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="59.670000000000002" id="rvW-hi-vlE"/>
+                                                </constraints>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
@@ -65,11 +67,14 @@
                                         </subviews>
                                         <color key="backgroundColor" red="0.57187280263166163" green="0.24168367439314226" blue="0.8820839524269104" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
-                                            <constraint firstItem="B5F-8q-aSE" firstAttribute="leading" secondItem="VzF-72-RKp" secondAttribute="leading" constant="15" id="0Uy-mu-Js4"/>
-                                            <constraint firstItem="B5F-8q-aSE" firstAttribute="centerX" secondItem="VzF-72-RKp" secondAttribute="centerX" id="J9E-Mk-pkv"/>
-                                            <constraint firstAttribute="trailing" secondItem="B5F-8q-aSE" secondAttribute="trailing" constant="15" id="f9N-k8-ws0"/>
-                                            <constraint firstItem="B5F-8q-aSE" firstAttribute="centerX" secondItem="VzF-72-RKp" secondAttribute="centerX" id="jcH-8R-SvB"/>
-                                            <constraint firstAttribute="bottom" secondItem="B5F-8q-aSE" secondAttribute="bottom" constant="235" id="sSP-kX-cAT"/>
+                                            <constraint firstAttribute="trailing" secondItem="Cub-8w-3Um" secondAttribute="trailing" constant="86.329999999999998" id="2cj-5L-4HA"/>
+                                            <constraint firstItem="B5F-8q-aSE" firstAttribute="centerX" secondItem="VzF-72-RKp" secondAttribute="centerX" id="CGh-KV-GWT"/>
+                                            <constraint firstAttribute="trailing" secondItem="B5F-8q-aSE" secondAttribute="trailing" constant="15" id="KVz-Kb-qdF"/>
+                                            <constraint firstItem="Cub-8w-3Um" firstAttribute="leading" secondItem="VzF-72-RKp" secondAttribute="leading" constant="86.670000000000002" id="Keg-Sk-0aW"/>
+                                            <constraint firstItem="B5F-8q-aSE" firstAttribute="top" secondItem="Cub-8w-3Um" secondAttribute="bottom" constant="12.67" id="OPT-mA-riN"/>
+                                            <constraint firstItem="Cub-8w-3Um" firstAttribute="top" secondItem="VzF-72-RKp" secondAttribute="top" constant="8" id="evs-rP-d5J"/>
+                                            <constraint firstItem="Cub-8w-3Um" firstAttribute="centerX" secondItem="VzF-72-RKp" secondAttribute="centerX" id="fLC-KZ-SS1"/>
+                                            <constraint firstItem="B5F-8q-aSE" firstAttribute="leading" secondItem="VzF-72-RKp" secondAttribute="leading" constant="15" id="p1L-YG-cTa"/>
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dLD-Gq-2gv" userLabel="AnswerView">
@@ -90,7 +95,7 @@
                                                             </userDefinedRuntimeAttribute>
                                                         </userDefinedRuntimeAttributes>
                                                         <connections>
-                                                            <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qiy-gY-xoY"/>
+                                                            <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HQ9-1b-1dh"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PQC-Nk-Ysf">
@@ -105,7 +110,7 @@
                                                             </userDefinedRuntimeAttribute>
                                                         </userDefinedRuntimeAttributes>
                                                         <connections>
-                                                            <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Mqa-0S-cNp"/>
+                                                            <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="giF-Pn-QZg"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FMG-pt-fEN">
@@ -114,7 +119,7 @@
                                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <state key="normal">
                                                             <attributedString key="attributedTitle">
-                                                                <fragment content="C) Controller">
+                                                                <fragment content="Controller">
                                                                     <attributes>
                                                                         <font key="NSFont" size="15" name="Helvetica"/>
                                                                         <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
@@ -128,7 +133,7 @@
                                                             </userDefinedRuntimeAttribute>
                                                         </userDefinedRuntimeAttributes>
                                                         <connections>
-                                                            <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3gf-nU-Dw2"/>
+                                                            <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ykx-Xc-vzc"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0DD-9B-zug">
@@ -143,7 +148,7 @@
                                                             </userDefinedRuntimeAttribute>
                                                         </userDefinedRuntimeAttributes>
                                                         <connections>
-                                                            <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NWq-Gx-WfO"/>
+                                                            <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vhc-nD-jOl"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
@@ -175,6 +180,17 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="optionA" destination="KjV-gI-aYb" id="Qht-LC-i4X"/>
+                        <outlet property="optionB" destination="PQC-Nk-Ysf" id="0zb-9F-PsL"/>
+                        <outlet property="optionC" destination="FMG-pt-fEN" id="bzg-L1-Y7r"/>
+                        <outlet property="optionD" destination="0DD-9B-zug" id="ztL-E9-4ot"/>
+                        <outlet property="progressView" destination="E5v-lP-mdE" id="w6K-je-wyq"/>
+                        <outlet property="questionCounter" destination="88d-aw-esA" id="H3u-8w-KQE"/>
+                        <outlet property="questionLabel" destination="B5F-8q-aSE" id="h0h-j7-EMe"/>
+                        <outlet property="scoreLabel" destination="GeJ-Qi-bs3" id="jF0-Zh-14l"/>
+                        <outlet property="titleLable" destination="Cub-8w-3Um" id="rgA-H0-Kxj"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
