@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina5_5" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -175,18 +175,6 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <connections>
-                        <outlet property="buttonA" destination="KjV-gI-aYb" id="T5R-5h-mue"/>
-                        <outlet property="buttonB" destination="PQC-Nk-Ysf" id="yr6-Ao-euF"/>
-                        <outlet property="buttonC" destination="FMG-pt-fEN" id="HLU-5t-Lp4"/>
-                        <outlet property="buttonD" destination="0DD-9B-zug" id="PBL-Oc-3gK"/>
-                        <outlet property="currentQuestion" destination="88d-aw-esA" id="VSk-15-U7Q"/>
-                        <outlet property="currentQuestionLabel" destination="88d-aw-esA" id="UMv-BW-I0a"/>
-                        <outlet property="headerLabel" destination="Cub-8w-3Um" id="D7b-mb-3JH"/>
-                        <outlet property="progessBarView" destination="E5v-lP-mdE" id="eOw-Gl-rgp"/>
-                        <outlet property="questionLabel" destination="B5F-8q-aSE" id="KTp-Y0-0gM"/>
-                        <outlet property="quizScoreLabel" destination="GeJ-Qi-bs3" id="uYh-bW-ech"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
