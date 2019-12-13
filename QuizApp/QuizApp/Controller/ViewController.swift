@@ -70,7 +70,7 @@ class ViewController: UIViewController {
         scoreLabel.text = "Score: \(score)"
         questionCounter.text = "\(questionNumber )/\(allQuestions.list.count)"
         //print(questionNumber)
-        progressView.frame.size.width = (view.frame.size.width / CGFloat(allQuestions.list.count)) * CGFloat(questionNumber + 1)
+        progressView.frame.size.width = (view.frame.size.width / CGFloat(allQuestions.list.count)) * CGFloat(questionNumber)
         questionNumber += 1
         
     }
