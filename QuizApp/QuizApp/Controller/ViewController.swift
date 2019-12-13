@@ -68,7 +68,7 @@ class ViewController: UIViewController {
     
     func updateUI() {
         scoreLabel.text = "Score: \(score)"
-        questionCounter.text = "\(questionNumber + 1)/\(allQuestions.list.count)"
+        questionCounter.text = "\(questionNumber)/\(allQuestions.list.count)"
         progressView.frame.size.width = (view.frame.size.width / CGFloat(allQuestions.list.count)) * CGFloat(questionNumber + 1)
         questionNumber += 1
         
@@ -76,7 +76,7 @@ class ViewController: UIViewController {
     
     func restartQuiz() {
         score = 0
-        questionNumber = 0
+        questionNumber = 1
         updateQuestion()
         
     }
